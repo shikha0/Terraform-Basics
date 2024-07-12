@@ -1,3 +1,9 @@
+## authenticationa dn authorization
+## are the first part terraform looks into
+## in order to create a resource
+## so the flow will always start with provider
+## an proceed further
+
 provider "aws" {
   region     = "ap-south-1"
   access_key = "#######################"
